@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be : Mohamed Nabawey </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+   
+    <script src="https://kit.fontawesome.com/8f3997e7e0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="shortcut icon" href="./images/beICO.png">
+</head>
+<body onscroll="changeNavScrol()" > 
+
+            <!-- Navbar section  -->
+
+            <nav class="navbar navbar-expand-lg navbar-light  fixed-top bg-light ml-auto" id="nav">
+                <a class="navbar-brand col-md-6 col-sm-10   titleContainer " href="#"><img src="./images/logo.png" alt="logo" class="title"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse navContent" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link " href="#" id="home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                   
+                  </ul>
+                   
+                </div>
+              </nav>
+     
+
+              <!-- first Section  -->
+
+        
+                   
+                    <section class="jumbotron text-center sec1Cover">
+                      <div class="container sec1Content">
+                        <header class="sec1Header">
+                          <span> Online solutions</span> <br> to boost your website
+                        </header>
+                        <p class="lead text-muted sec1P">Lorem ipsum dolor sit amet ipsum adipisicing elit sit amet. <br> Ut ipsum  amet dolor sit amet consectetur adipisicing  adipisicing elit. </p>
+                        
+                        <div class="container sec1Btns">
+                          <a href="#" class="btn btn-primary my-2 rounded-pill ourService">Our services</a>
+                          <a href="#" class="btn btn-outline-primary my-2 rounded-pill learnMore">Learn more</a>
+                        </div>
+                      </div>
+                      
+                      <div class="sec1Footer">
+                        <p class="imgBtns"><img src="./images/btns.png" ></p>
+                        <p class="p1">Have quesition ? <br><span >+32 540 200 7575</span></p>
+                        <p class="p2">Visit Our Social Media</p>
+                        <p><div class="FB">FB</div> <div class="FB">IN</div></p>
+                      </div>
+                    </section>
+
+
+
+                    
+              <!-- Second Section  -->
+
+            
+            <section class="sec2">
+               <div><img src="./images/s21.png" ></div>
+               <div><img src="./images/s22.png" ></div>
+               <div><img src="./images/s23.png" ></div>
+               <div><img src="./images/s24.png" ></div>
+            </section>
+
+
+
+            <!-- side bar button  -->
+            
+            <button class="sideBarBtn openbtn" onclick="openNav()"><svg  id="star"aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+              <br><br> Menu</button>
+              <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="#">Portofolio</a>
+                <a href="#">Contact</a>
+              </div>
+
+
+
+<!--                  section 3 -->
+
+
+              <section class="sec3 container-fluid">
+
+                <div class="sec3d1">
+                  <img src="./images/sec3.jpg" id="sec3Img">
+                </div >
+
+                <div class="sec3d1">
+                  <header class="sec1Header" id="sec3Header"><span>What </span> can <br>
+                    we offer you?</header>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                  <br>
+                  <p><i class="fas fa-check"></i> We have over 15 years experience in the industry</p>
+                 
+                  <p><i class="fas fa-check"></i> One of the best ratings on the market - 98%</p>
+                  <p><i class="fas fa-check"></i> Our team is very qualified and we are still growing </p>
+                  <p><i class="fas fa-check"></i> We helped many companies </p>
+
+                  <a href="#" class="btn btn-primary my-2 rounded-pill ourService">More about us</a>
+
+                </div>
+              </section>
+
+
+
+
+<!-- section 4 -->
+
+                <section class="sec4">
+                    <header class="sec1Header" id="sec4Header"><span>What we can do for </span>  <br>
+                      your website</header>
+
+                      <p>Starting from SEO services to comprehensive service <br>
+                        related to advertasing your brand.</p>
+
+                        
+                     
+
+
+                            <div class="card-deck row">
+                              <div class="card">
+                                <img class="card-img-top" src="./images/sec31.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Client & Sale Targeting</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                </div>
+                              </div>
+                              <div class="card">
+                                <img class="card-img-top" src="images/sec32.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Social Media Marketing</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                </div>
+                              </div>
+                              <div class="card">
+                                <img class="card-img-top" src="./images/sec33.png" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Speed Optimisation</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+                                </div>
+                              </div>
+                            </div>
+
+                         
+                      
+
+                        <div >
+                        <a href="#" class="btn btn-primary my-2 rounded-pill allServices">See All services</a>
+                        </div>
+                </section>
+
+
+
+
+
+
+
+<!--                  section 5 -->
+
+<section class="sec5 container-fluid">
+
+  <div class="sec3d1">
+    <img src="./images/sec5.jpg" id="sec5Img">
+  </div >
+
+  <div class="sec3d1">
+    <header class="sec1Header" id="sec5Header"> Let the facts  <span><br> convince </span> you <br></header>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+    <br>
+    
+    <div class="s5f">
+      <div class="s5">
+        <div class="ss">+</div>
+        <div class="s5n s64">%</div>
+        <div class="s5t">Increase of total <br>
+          visit on website
+        </div>
+        </div>
+
+        <div class="s5">
+          <div class="ss">+</div>
+          <div class="s5n2 s5n s38">%</div>
+          <div class="s5t">Increase of total <br>
+            visit on website
+          </div>
+          </div>
+
+          <div class="s5">
+            <div class="ss">+</div>
+            <div class="s5n s5n3 s49">%</div>
+            <div class="s5t">Increase of total <br>
+              visit on website
+            </div>
+            </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- section 6  -->
+
+              <section class="sec6">
+                <div class="sec3d1">
+                  <header class="sec1Header" id="sec6Header">  <span> Don’t miss <br></span> our future updates! <br></header>
+              
+                  <p id="sec6text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                  <br>
+
+
+                  <div class="row sec6row">
+                    <div class="col-sm-7 ">
+                      <input placeholder="Your e-mail" id="email" type="email" name="Email" required="" maxlength="50"> </div>
+                    <div class="col-sm-5 mod">
+                      <button class="btn button-primary" id="submit" type="submit">Subscribe</button>
+                    </div>
+                  </div>
+
+                  <p id="sec6txt2"> By signing up you automaticaly
+                    <br> accept our <a href="#">Privacy Policy</a> and <a href="#">Terms of use</a> </p>
+
+
+              </section>
+
+
+  
+
+
+
+
+  <!-- footer section  -->
+
+  <footer id="Footer" class="clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <hr class="no_line" style="margin:0 auto 100px; border: none;"> </div>
+        <div class="col-md-6">
+          <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
+            <div class="image_wrapper"><img class="scale-with-grid" src="./images/logo.png" alt="Logo" width="207" height="50"> </div>
+          </div>
+          <hr class="no_line" style="margin: 0 auto 30px auto ;border: none;"> Level 13,2 Elizabeth St,
+          <br> Melbourne, Victoria 3000,
+          <br> Australia </div>
+        <div class="col-md-3">
+          <h6>Services</h6><a href="#" style="color:inherit">Complex Page Ranking</a>
+          <br> <a href="#" style="color:inherit">Site Optimisation</a>
+          <br> <a href="#" style="color:inherit">User Retention</a>
+          <br> <a href="#" style="color:inherit">Complex Monitoring</a>
+          <br> <a href="#" style="color:inherit">Boosting Ranking</a>
+          <br> </div>
+        <div class="col-md-3">
+          <h6>Website</h6><a href="content/agency4/about.html" style="color:inherit">About Us</a>
+          <br> <a href="#" style="color:inherit">Privacy Policy</a>
+          <br> <a href="content/agency4/about.html" style="color:inherit">Our Team</a>
+          <br> <a href="content/agency4/contact.html" style="color:inherit">Contact</a> </div>
+        <div class="col-12">
+          <hr class="no_line" style="margin:0 auto 70px ;border: none;"> </div>
+      </div>
+    </div>
+    <div class="footer_copy">
+      <div class="container">
+        <div class="column one"> <a id="back_to_top" class="footer_button" href=""><i class="icon-up-open-big"></i></a>
+          <div class="copyright"> © 2021 - BeTheme. Muffin group - HTML by <a target="_blank" rel="nofollow" href="https://1.envato.market/9ZxXY">BeantownThemes</a> </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+<!-- scroll down text  -->
+<div id="scroll-container">
+  <div id="scroll-text">SCROLL DOWN.<div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+<script>
+
+function changeNavScrol() {
+    document.getElementById("nav").classList.add("whiteBackground");
+}
+
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+}
+
+</script>
+
+</body>
+</html>
